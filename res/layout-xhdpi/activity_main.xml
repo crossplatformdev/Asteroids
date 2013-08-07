@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/TemaAsteroides"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="@dimen/Padding" >
+
+    <TextView
+        style="@style/Title.Portrait.xhdpi"
+        android:layout_weight="1"
+        android:text="@string/app_name" android:layout_height="0dp"/>
+
+    <Button
+        android:id="@+id/play"
+        style="@style/Button.Vertical.xhdpi"
+        android:onClick="lanzarJugar"
+        android:text="@string/play" />
+
+    <Button
+        android:id="@+id/configure"
+        style="@style/Button.Vertical.xhdpi"
+        android:onClick="lanzarPreferencias"
+        android:text="@string/configure" />
+
+    <Button
+        android:id="@+id/about"
+        style="@style/Button.Vertical.xhdpi"
+        android:onClick="lanzarAcercaDe"
+        android:text="@string/about" />
+
+    <Button
+        android:id="@+id/score"
+        style="@style/Button.Vertical.xhdpi"
+        android:onClick="lanzarPuntuaciones"
+        android:text="@string/score" />
+
+    <Button
+        android:id="@+id/exit"
+        style="@style/Button.Vertical.xhdpi"
+        android:onClick="lanzarSalir"
+        android:text="@string/exit" />
+
+    <TextView
+        android:id="@+id/by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="bottom|right"
+        android:text="@string/by" />
+
+</LinearLayout>

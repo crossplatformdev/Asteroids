@@ -1,0 +1,90 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="TemaAsteroides" parent="android:style/Theme.NoTitleBar">
+        <!-- Hereda de -->
+    </style>
+
+    <style name="TemaAbout" parent="android:style/Theme.Dialog">
+        <!-- Hereda de -->
+    </style>
+
+    <style name="Title">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical|center</item>
+        <item name="android:textColor">@color/title</item>
+        <item name="android:textSize">@dimen/Title</item>
+    </style>
+
+    <style name="Title.Landscape">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Title.Portrait">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="Title.Landscape.xhdpi">
+        <item name="android:textSize">@dimen/Title.xhdpi</item>
+    </style>
+
+    <style name="Title.Portrait.xhdpi">
+
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_weight">1</item>
+        <item name="android:height">@dimen/ButtonHeight</item>
+        <item name="android:width">@dimen/ButtonWidth</item>
+        <item name="android:maxHeight">@dimen/MinButtonHeight</item>
+        <item name="android:maxWidth">@dimen/MaxButtonWidth</item>
+        <item name="android:minHeight">@dimen/MinButtonHeight</item>
+        <item name="android:minWidth">@dimen/MinButtonWidth</item>
+        <item name="android:padding">@dimen/Padding</item>
+    </style>
+
+    <style name="Button.Landscape">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Button.Vertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="Button.Landscape.xhdpi">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Button.Vertical.xhdpi">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="ScoreIcon">
+        <item name="android:layout_width">?android:attr/listPreferredItemHeight</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="score_ammount">Total Points</string>
+    <string name="app_name">Asteroids</string>
+    <string name="no_score">There is no scores yet.</string>
+    <string name="score">Score</string>
+    <string name="play">Play</string>
+    <string name="about">About&#8230;</string>
+    <string name="configure">Configure</string>
+    <string name="exit">Exit</string>
+    <string name="by">By Elías A. Angulo</string>
+    <string name="menu_settings">Settings</string>
+    <string name="about_text">This program has been developed as example in the course of Android to demosntrate how new activities can be launched from main activity.</string>
+
+</resources>

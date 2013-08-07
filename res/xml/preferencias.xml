@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencias" >
+
+    <CheckBoxPreference
+        android:key="musica"
+        android:checked="true"
+        android:summary="Se reproduce música de fondo"
+        android:title="Reproducir música" 
+        android:onClick="toggleMusic"/>
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/tiposGraficos"
+        android:entryValues="@array/tiposGraficosValores"
+        android:key="graficos"
+        android:summary="Se escoge la representación de gráficos"
+        android:title="Tipo de gráficos" />
+    
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/tiposPuntuaciones"
+        android:entryValues="@array/tiposPuntuacionesValores"
+        android:key="puntuaciones"
+        android:summary="Escoge el tipo de almacenamiento de las puntuaciones"
+        android:title="Tipo de almacenamiento" />
+
+    <EditTextPreference
+        android:defaultValue="3"
+        android:key="fragmentos"
+        android:summary="En cuantos trozos se divide un asteroide"
+        android:title="Número de Fragmentos" />
+
+</PreferenceScreen>

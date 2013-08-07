@@ -1,0 +1,24 @@
+<resources>
+
+    <string-array name="tiposGraficos">
+        <item>vectorial</item>
+        <item>bitmap</item>
+        <item>3D</item>
+    </string-array>
+    <string-array name="tiposGraficosValores">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+        <string-array name="tiposPuntuaciones">
+        <item>Array</item>
+        <item>Preferencias</item>
+        <item>Fichero interno</item>
+    </string-array>
+    <string-array name="tiposPuntuacionesValores">
+        <item>array</item>
+        <item>preferencias</item>
+        <item>fichero</item>
+    </string-array>
+
+</resources>

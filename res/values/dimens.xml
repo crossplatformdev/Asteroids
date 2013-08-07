@@ -1,0 +1,15 @@
+<resources>
+
+    <dimen name="Title">50dp</dimen>
+    <dimen name="Title.xhdpi">100dp</dimen>
+    <dimen name="Score">20dp</dimen>
+    <dimen name="MinButtonHeight">36dp</dimen>
+    <dimen name="MinButtonWidth">48dp</dimen>
+    <dimen name="MaxButtonHeight">64dp</dimen>
+    <dimen name="MaxButtonWidth">96dp</dimen>
+    <dimen name="ButtonHeight">48dp</dimen>
+    <dimen name="ButtonWidth">72dp</dimen>
+    <dimen name="Padding">10dp</dimen>
+    <dimen name="Margin">20dp</dimen>
+
+</resources>
